@@ -1,8 +1,10 @@
 # Setup Kafka in Docker
 
 # Command Summary
+```sh
 kafka-consumer-groups --bootstrap-server localhost:9094 --describe --group my-group
 kafka-topics --describe --zookeeper zoo1 --topic my.topic.01
+```
 
 ## 1. Setup
 
